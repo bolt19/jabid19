@@ -1,0 +1,196 @@
+
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.intro{
+    position: absolute;
+    margin: 0 ;
+    display: grid;
+    justify-content: center;
+    align-items: middle;
+    place-items: center;
+    align-content: center;
+    grid-template-columns: repeat(4, auto);
+    height:200px;
+    color: white;
+    font-size: 6em;
+    font-family: 'Impact';
+    font-weight: bold;
+    top: 250px;
+    left: 300px;
+    background-color: black;
+}
+
+.intro img{
+    display: block;
+    width: 250px;
+    height: 400px;
+}
+
+section.about {
+    background: rgb(46, 53, 54);
+    padding: 12em;
+    height: calc(100vh - 24em);
+    overflow: hidden;
+    position: relative;
+}
+
+section.about h1 {
+    position: absolute;
+    font-size: 5em;
+    text-transform: uppercase;
+    margin: 0;
+    z-index: 1;
+    left: 15%;
+}
+
+section.about p {
+    position: absolute;
+    font-size: 2em;
+    width: 55%;
+    z-index: 1;
+    top: 300px;
+    left: 400px;
+}
+
+ .box1 {
+    position: absolute;
+    top: 0;
+    left: 20%;
+    z-index: 0;
+    width: 800px;
+    height: 800px;
+    border: 30px solid #20A2C3;
+    overflow: hidden;
+    transform: rotateZ(65deg)
+}
+
+.box2 {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    z-index: 0;
+    width: 200px;
+    height: 200px;
+    border: 30px solid rgba(255,255,255,.5);
+    overflow: hidden;
+}
+
+#particles-js{
+    margin: 0;
+    padding: 0;
+    height: 670px;
+}
+
+.skdiv{
+    display: grid;
+    background: white;
+    margin-top: 100px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    font-size: 20px;
+    margin-right: 90px;
+    margin-left: 100px;
+    margin-top: 180px;
+    
+}
+
+
+section.skills{  
+    height: calc(115vh);
+    overflow: hidden;
+    position: relative;
+    background-color: rgba(49, 49, 49, 0.37);
+    background-position: center;
+    background-size: cover;    
+}
+
+section.skills div{
+    background: #20A2C3;
+    height: 230px;
+    width: 250px;
+    text-align: center;
+    padding: 1px;
+    border-radius: 10px;
+    color: white;
+    align-items: center;
+    background-image: url("img/blue.jpg"); 
+    background-blend-mode: darken;  
+}
+
+section.skills h1 {
+    position: absolute;
+    font-size: 5em;
+    text-transform: uppercase;
+    margin: 0;
+    z-index: 1;
+    left: 15%;
+    color: #20A2C3;
+    margin-top: 60px;
+}
+
+ul {
+    list-style-type: none;
+    position: relative;
+}
+
+li{
+    text-align: center;
+    position: relative;
+    padding-right: 40px;
+    color: rgb(235, 240, 240);
+}
+section.contact{
+    position: absolute;
+    padding: 10em;
+    height: calc(45vh);
+    overflow: hidden;
+    position: absolute;
+    background-color: rgb(44, 43, 43);
+    width: 75%;
+}
+
+section.contact h1 {
+    position: absolute;
+    font-size: 5em;
+    text-transform: uppercase;
+    margin: 0;
+    z-index: 1;
+    left: 7%;
+    color: white;
+    bottom: 440px;  
+}
+
+.icon{
+    position: absolute;
+    /* padding: 10em; */
+    height: calc(60vh);
+    overflow: hidden;
+    position: absolute;
+    background-color: rgb(44, 43, 43);
+    width: 50%; 
+    margin-top: 65px;
+    margin-left: 50px;
+}
+.icon img{
+    margin-left: 90px;
+    margin-top: 23px;
+    width: 100px;
+    
+}
+
+.icon img:hover{
+    transform: scale(1.5);
+}
+
+.row1{
+    padding-bottom: 50px;
+}
+
+.cat{
+    margin-left: 1200px;
+    margin-top: 100px;
+}
