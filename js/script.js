@@ -30,6 +30,5 @@ window.onload = function() {
             }, false)
 }
 
-
   const grid = document.querySelector(".skdiv");
   animateCSSGrid.wrapGrid(grid, {duration : 600});
