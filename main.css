@@ -1,8 +1,9 @@
 html{
     overflow: scroll;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 body {
+    margin: 0;
     height: 100%;
     width: 100%;
     background-color: rgb(0, 0, 0);
@@ -30,6 +31,7 @@ body {
     font-family: 'Impact';
     font-weight: bold;
     top: 450px;
+    right: 10px;
 }
 
 .intro img{
