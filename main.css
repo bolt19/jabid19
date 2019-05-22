@@ -4,8 +4,8 @@ body {
 }
 
 .intro{
-    position: absolute;
-    margin: 0 ;
+    position: relative;
+    margin: 0 auto;
     display: grid;
     justify-content: center;
     align-items: middle;
@@ -13,13 +13,14 @@ body {
     align-content: center;
     grid-template-columns: repeat(4, auto);
     height:200px;
+    width: 800px;
     color: white;
     font-size: 6em;
     font-family: 'Impact';
     font-weight: bold;
-    top: 250px;
-    left: 300px;
-    background-color: black;
+    top: 400px;
+    /* left: 300px; */
+   
 }
 
 .intro img{
@@ -29,9 +30,11 @@ body {
 }
 
 section.about {
+    margin: 0 auto;
     background: rgb(46, 53, 54);
     padding: 12em;
-    height: calc(100vh - 24em);
+    height: 300px;
+    width: 950px;
     overflow: hidden;
     position: relative;
 }
@@ -78,9 +81,15 @@ section.about p {
 }
 
 #particles-js{
-    margin: 0;
-    padding: 0;
+    position: relative;
+    margin: 0 auto;
     height: 670px;
+    width: 1330px;
+    bottom: 200px;
+    
+    margin-bottom: 
+    
+    
 }
 
 .skdiv{
@@ -110,8 +119,10 @@ section.about p {
     background-blend-mode: darken;
 }
 
-section.skills{  
-    height: calc(115vh);
+section.skills{ 
+    margin: 0 auto; 
+    height: 700px;
+    width: 1335px;
     overflow: hidden;
     position: relative;
     background-color: rgba(49, 49, 49, 0.37);
@@ -160,13 +171,14 @@ li{
 }
 
 section.contact{
-    position: absolute;
+    margin: 0 auto;
+    position: relative;
     padding: 10em;
-    height: calc(45vh);
+    height: 310px;
+    width: 1015px;
     overflow: hidden;
-    position: absolute;
     background-color: rgb(44, 43, 43);
-    width: 74%;
+    
 }
 
 section.contact h1 {
@@ -181,13 +193,13 @@ section.contact h1 {
 }
 
 .icon{
-    position: absolute;
+    position: relative;
     /* padding: 10em; */
-    height: calc(60vh);
+    height: 350px;
+    width: 700px;
     overflow: hidden;
-    position: absolute;
-    background-color: rgb(44, 43, 43);
-    width: 50%; 
+    
+   
     margin-top: 65px;
     margin-left: 50px;
 }
@@ -208,6 +220,6 @@ section.contact h1 {
 }
 
 .cat{
-    margin-left: 1200px;
-    margin-top: 100px;
+    margin-left: 1250px;
+    margin-top: -300px
 }
