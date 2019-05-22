@@ -1,26 +1,35 @@
-
+html{
+    overflow: scroll;
+    overflow-x: hidden;
+}
 body {
+    height: 100%;
+    width: 100%;
     background-color: rgb(0, 0, 0);
+}
+
+::-webkit-scrollbar {
+    width: 0px;  
+    background: transparent;  
 }
 
 .intro{
     position: relative;
     margin: 0 auto;
     display: grid;
+    background-color: black;
     justify-content: center;
     align-items: middle;
     place-items: center;
     align-content: center;
     grid-template-columns: repeat(4, auto);
-    height:200px;
-    width: 800px;
+    height:140px;
+    width: 760px;
     color: white;
     font-size: 6em;
     font-family: 'Impact';
     font-weight: bold;
-    top: 400px;
-    /* left: 300px; */
-   
+    top: 450px;
 }
 
 .intro img{
@@ -85,11 +94,7 @@ section.about p {
     margin: 0 auto;
     height: 670px;
     width: 1330px;
-    bottom: 200px;
-    
-    margin-bottom: 
-    
-    
+    bottom: 200px;   
 }
 
 .skdiv{
@@ -121,7 +126,7 @@ section.about p {
 
 section.skills{ 
     margin: 0 auto; 
-    height: 700px;
+    height: 710px;
     width: 1335px;
     overflow: hidden;
     position: relative;
@@ -154,7 +159,6 @@ li{
 }
 
 .decorDiv{
-    
     margin-left: 1200px;
     margin-top: -720px;
     width: 600px;
@@ -178,7 +182,6 @@ section.contact{
     width: 1015px;
     overflow: hidden;
     background-color: rgb(44, 43, 43);
-    
 }
 
 section.contact h1 {
@@ -198,8 +201,6 @@ section.contact h1 {
     height: 350px;
     width: 700px;
     overflow: hidden;
-    
-   
     margin-top: 65px;
     margin-left: 50px;
 }
@@ -207,7 +208,6 @@ section.contact h1 {
     margin-left: 90px;
     margin-top: 23px;
     width: 100px;
-    
 }
 
 .icon img:hover{
