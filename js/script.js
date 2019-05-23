@@ -34,7 +34,7 @@ window.onload = function() {
   animateCSSGrid.wrapGrid(grid, {duration : 600});
 
 
-  // Custom clustor
+  // Custom cursor
 
 const cursor = document.querySelector('.cursor');
 
