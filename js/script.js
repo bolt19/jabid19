@@ -33,7 +33,6 @@ window.onload = function() {
   const grid = document.querySelector(".skdiv");
   animateCSSGrid.wrapGrid(grid, {duration : 600});
 
-
   // Custom cursor
 
 const cursor = document.querySelector('.cursor');
